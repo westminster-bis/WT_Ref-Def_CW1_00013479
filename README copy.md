@@ -11,4 +11,4 @@ It consists of 6 pages: <br>
     
 There are 4 directories in the project folder: img for images, style for css styles, js for JavaScript documents and fonts for the fonts that were used in the project
 
-Link for github pages: https://github.com/westminster-bis/WT_Ref-Def_CW1_00013479.git
+Link for github pages: https://westminster-bis.github.io/WT22-cw1-00014485/index.html

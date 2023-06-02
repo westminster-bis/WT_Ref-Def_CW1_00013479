@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kink.uz</title>
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="style/media.css">
+    <script src="https://kit.fontawesome.com/70b4046f70.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<header class="header">
+    <div class="header__content container">
+        <a href="index.html">
+            <img src="./img/logo.svg" alt="logo" style="height: 80px">
+        </a>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="aboutus.html">About us</a>
+                </li>
+                <li>
+                    <a href="contacts.html">Contacts</a>
+                </li>
+                <li>
+                    <a href="sales.html">Sales</a>
+                </li>
+                <li>
+                    <a href="gift.html">Gift</a>
+                </li>
+                
+                
+            </ul>
+        </nav>
+        <div class="search">
+            <input type="text" class="search-input" placeholder="Search...">
+            <a href="cart.html" class="cart-btn">
+                <span class="icon">
+                    <img src="./img/cart.png" alt="" width="30">
+                </span>
+                CART
+            </a>
+        </div>
+        <nav class="burger">
+            <div id="menuToggle">
+                <!--
+                A fake / hidden checkbox is used as click reciever,
+                so you can use the :checked selector on it.
+                -->
+                <input type="checkbox">
+
+                <!--
+                Some spans to act as a hamburger.
+
+                They are acting like a real hamburger,
+                not that McDonalds stuff.
+                -->
+                <span></span>
+                <span></span>
+                <span></span>
+
+                <!--
+                Too bad the menu has to be inside of the button
+                but hey, it's pure CSS magic.
+                -->
+
+                <div id="menu">
+                    <div class="container">
+                        <div><a href="index.html">Home</a></div>
+                        <div><a href="aboutus.html">About us</a></div>
+                        <div><a href="contacts.html">Contacts</a></div>
+                        <div><a href="sales.html">Sale</a></div>
+                        <div><a href="gift.html">Gift</a></div>
+                        <div>
+                            <a href="cart.html" class="cart-btn" style="justify-content: flex-start">
+                                <img src="./img/cart2.png" alt="" width="30">
+                                CART
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<section class="gift_info container">
+    <h2>Gift coupone</h2>
+    <div class="row gift_row">
+        <img src="./img/gift.png" alt="gift" height="350px">
+        <div class="gift_inner">
+            <h2>This is the best present for your friends, family and even a dog!</h2>
+            <div class="inner_row">
+                <a href="" class="btn btn-danger">Order</a>
+                <a href="" class="btn">Add to wishlist</a>
+            </div>
+            
+        </div>
+    </div>
+    
+</section>
+<section class="form container">
+    <div id="feedback-form">
+        <h2>Questions?</h2>
+        <div>
+            <form>
+            <input type="text" name="email" placeholder="Email"></input>
+            <input type="text" name="name" placeholder="Name"></input>
+            <input type="text" id="feedback-phone" name="phone" placeholder="Phone number"></input>
+            <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+<footer class="footer">
+    <div class="footer__content container">
+        <a href="index.html">
+            <img src="./img/nike-white.svg" alt="logo" height="225">
+        </a>
+        <div class="footer_links">
+            <div>
+                <h4>Contact us at</h4>
+                <ul>
+                    <li><a href="tel:+998909248761">Phone: +998909248761</a></li>
+                    <li><a href="mailto:kink.uz@gmail.com">Email: nike.uz@gmail.com</a></li>
+                </ul>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About us</a></li>
+                <li><a href="contacts.html">Contacts</a></li>
+
+            </ul>
+            <ul>
+                <li><a href="sale.html">Sales</a></li>
+                <li><a href="clothes.html">Gift</a></li>
+            </ul>
+            <div>
+                <h4>Nike.uz socials</h4>
+                <ul>
+                    <li><a href=""><i class="fa-brands fa-instagram"></i>Instagram</a></li>
+                    <li><a href=""><i class="fa-brands fa-telegram"></i>Telegram</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <hr>
+
+    <div class="footer__basement container">
+        <p>This website was created to fulfill Web Technology
+            module’s requirements and does not represent an actual company or service</p>
+    </div>
+</footer>
+
+</body>
+</html>
